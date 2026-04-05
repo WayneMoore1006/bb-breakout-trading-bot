@@ -101,6 +101,17 @@
 
 * 交易進出場點會直接顯示於圖表上
 * 可於 TradingView 查看策略績效（報酬、最大回撤、勝率等）
+<img width="1131" height="591" alt="image" src="https://github.com/user-attachments/assets/7c24de3d-dbb3-4103-a154-be9a7b652a15" />
+<img width="1116" height="697" alt="image" src="https://github.com/user-attachments/assets/52ecafd4-1944-4dc5-ab46-5299e0a832cd" />
+<img width="1083" height="735" alt="image" src="https://github.com/user-attachments/assets/1f5f72c1-9f52-4094-b97c-fe96eff4725e" />
+
+> ⚠️ **績效免責聲明**
+>
+> 圖中所顯示之績效、利潤與相關數據皆為模擬交易（回測）結果，並非實際交易成果。
+>
+> 實際結果可能因市場狀況、交易延遲及其他因素而有所差異。
+>
+> 請自行承擔投資風險，所有投資決策均由使用者自行負責。
 
 ---
 
@@ -239,6 +250,17 @@ Open the **Strategy Tester** tab to view performance metrics
 
 * Trade entries and exits plotted directly on chart
 * Strategy performance metrics (profit, drawdown, win rate, etc.) available in TradingView
+<img width="1131" height="591" alt="image" src="https://github.com/user-attachments/assets/7c24de3d-dbb3-4103-a154-be9a7b652a15" />
+<img width="1116" height="697" alt="image" src="https://github.com/user-attachments/assets/52ecafd4-1944-4dc5-ab46-5299e0a832cd" />
+<img width="1083" height="735" alt="image" src="https://github.com/user-attachments/assets/1f5f72c1-9f52-4094-b97c-fe96eff4725e" />
+
+> ⚠️ **Performance Disclaimer**
+>
+> The performance metrics, profits, and results shown in the charts are based on simulated trading (backtesting) and do not represent actual trading performance.
+>
+> Actual results may vary due to market conditions, execution latency, and other real-world factors.
+>
+> Please trade at your own risk. All investment decisions are solely your responsibility.
 
 ---
 
