@@ -1,0 +1,37 @@
+//@version=6
+strategy(title="BB Breakout Reversal Strategy", shorttitle="BB Breakout Rev", overlay=true, pyramiding=0)
+
+// User inputs
+length = input.int(20, "Band Length", minval=1)
+multiplier = input.float(2.0, "StdDev Multiplier", minval=0.1, step=0.1)
+source = input.source(close, "Price Source")
+
+// Bollinger Band calculation (independent implementation)
+basis = ta.sma(source, length)
+std_dev = ta.stdev(source, length)
+upper_band = basis + multiplier * std_dev
+lower_band = basis - multiplier * std_dev
+
+// Entry conditions
+long_condition = close > upper_band
+short_condition = close < lower_band
+
+// Position management:
+// 1) If short signal appears, close long first, then open short.
+// 2) If long signal appears, close short first, then open long.
+if short_condition
+    strategy.close("Long", comment="Close Long on Short Signal")
+    strategy.entry("Short", strategy.short, comment="Short: Close < Lower Band")
+
+if long_condition
+    strategy.close("Short", comment="Close Short on Long Signal")
+    strategy.entry("Long", strategy.long, comment="Long: Close > Upper Band")
+
+// Visuals
+plot(basis, "Basis", color=color.new(color.blue, 0))
+upper_plot = plot(upper_band, "Upper Band", color=color.new(color.red, 0))
+lower_plot = plot(lower_band, "Lower Band", color=color.new(color.green, 0))
+fill(upper_plot, lower_plot, title="Band Fill", color=color.new(color.blue, 90))
+
+plotshape(long_condition, title="Long Signal", style=shape.triangleup, location=location.belowbar, color=color.new(color.green, 0), size=size.tiny, text="L")
+plotshape(short_condition, title="Short Signal", style=shape.triangledown, location=location.abovebar, color=color.new(color.red, 0), size=size.tiny, text="S")
