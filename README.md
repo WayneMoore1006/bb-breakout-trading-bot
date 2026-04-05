@@ -101,6 +101,10 @@
 
 * 交易進出場點會直接顯示於圖表上
 * 可於 TradingView 查看策略績效（報酬、最大回撤、勝率等）
+
+以下圖表為使用 TradingView 產生之示意圖，僅供展示與說明用途。  
+所有圖表影像之版權皆屬其原平台或相關權利人所有。
+
 <img width="1131" height="591" alt="image" src="https://github.com/user-attachments/assets/7c24de3d-dbb3-4103-a154-be9a7b652a15" />
 <img width="1116" height="697" alt="image" src="https://github.com/user-attachments/assets/52ecafd4-1944-4dc5-ab46-5299e0a832cd" />
 <img width="1083" height="735" alt="image" src="https://github.com/user-attachments/assets/1f5f72c1-9f52-4094-b97c-fe96eff4725e" />
@@ -250,6 +254,10 @@ Open the **Strategy Tester** tab to view performance metrics
 
 * Trade entries and exits plotted directly on chart
 * Strategy performance metrics (profit, drawdown, win rate, etc.) available in TradingView
+
+The following charts are generated using TradingView for demonstration purposes only.  
+All chart images are the property of their respective owners.
+
 <img width="1131" height="591" alt="image" src="https://github.com/user-attachments/assets/7c24de3d-dbb3-4103-a154-be9a7b652a15" />
 <img width="1116" height="697" alt="image" src="https://github.com/user-attachments/assets/52ecafd4-1944-4dc5-ab46-5299e0a832cd" />
 <img width="1083" height="735" alt="image" src="https://github.com/user-attachments/assets/1f5f72c1-9f52-4094-b97c-fe96eff4725e" />
