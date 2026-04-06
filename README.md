@@ -150,6 +150,7 @@ TradingView 為其各自擁有者之商標。
 
 請自行承擔使用風險，交易具有高度財務風險，過去績效不代表未來表現。
 
+---
 
 # BB Breakout Trading Bot(English version)
 
