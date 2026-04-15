@@ -1,4 +1,4 @@
-# BB Breakout 交易機器人(中文版本)
+# BB Breakout 量化交易機器人策略(中文版本)
 
 ## 🎯 專案目標
 
@@ -152,7 +152,7 @@ TradingView 為其各自擁有者之商標。
 
 ---
 
-# BB Breakout Trading Bot(English version)
+# BB Breakout Quantitative Trading Bot Strategy (English version)
 
 ## 🎯 Project Objective
 
